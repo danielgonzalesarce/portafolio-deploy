@@ -3,47 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <title>Daniel Gonzales | Full Stack Developer</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
 
-  <!-- HERO -->
-  <header class="hero">
-    <div class="container hero-content">
-      <div>
-        <h1>Daniel Gonzales</h1>
-        <h2>Full Stack Developer</h2>
-        <p>
-          Desarrollo aplicaciones web modernas, escalables y con buena experiencia de usuario. 
-          Transformo ideas en soluciones digitales efectivas.
-        </p>
-        <div class="hero-buttons">
-          <a href="#projects" class="btn primary">Ver Proyectos</a>
-          <a href="https://github.com/danielgonzalesarce" target="_blank" class="btn secondary">GitHub</a>
-        </div>
-      </div>
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo">Daniel Gonzales</div>
+      <nav class="nav">
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+      </nav>
     </div>
   </header>
 
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Hola, soy Daniel Gonzales</h1>
+      <h2>Full Stack Developer</h2>
+      <p>Desarrollo aplicaciones web modernas, escalables y con excelente experiencia de usuario.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">Ver Proyectos</a>
+        <a href="https://github.com/danielgonzalesarce" target="_blank" class="btn secondary">GitHub</a>
+      </div>
+    </div>
+  </section>
+
   <main class="container">
 
-    <!-- ABOUT -->
-    <section class="about">
+    <section id="about" class="about">
       <h2>Sobre mí</h2>
       <div class="about-content">
         <img src="https://media.licdn.com/dms/image/D4D03AQE8M8Fq6tVQ5g/profile-displayphoto-shrink_400_400/0/1671234567890?e=2147483647&v=beta&t=yourhash" alt="Daniel Gonzales" class="profile-img">
         <p>
           Soy estudiante de desarrollo de software especializado en aplicaciones web Full Stack.
-          Mi enfoque está en crear soluciones elegantes, escalables y fáciles de usar.  
-          Tengo experiencia real en proyectos como <a href="https://floreria-magaly-g3kq.vercel.app/" target="_blank">Florería</a> y 
+          Me enfoco en crear soluciones elegantes, escalables y fáciles de usar.
+          Experiencia real en proyectos como
+          <a href="https://floreria-magaly-g3kq.vercel.app/" target="_blank">Florería</a> y
           <a href="https://danielgonzalesarce.github.io/reposteria-/" target="_blank">Repostería</a>.
         </p>
       </div>
     </section>
 
-    <!-- SKILLS -->
-    <section class="skills">
+    <section id="skills" class="skills">
       <h2>Stack Tecnológico</h2>
       <div class="skills-grid">
         <span>HTML</span>
@@ -55,7 +62,6 @@
       </div>
     </section>
 
-    <!-- PROJECTS -->
     <section id="projects" class="projects">
       <h2>Proyectos</h2>
       <div class="projects-grid">
@@ -89,8 +95,7 @@
       </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="contact">
+    <section id="contact" class="contact">
       <h2>Contacto</h2>
       <div class="contact-links">
         <a href="https://github.com/danielgonzalesarce" target="_blank">GitHub</a>
@@ -99,6 +104,16 @@
     </section>
 
   </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Daniel Gonzales | Full Stack Developer</p>
+      <div class="footer-links">
+        <a href="https://github.com/danielgonzalesarce" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/daniel-alexander-gonzales-arce-537576383" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
